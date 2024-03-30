@@ -116,7 +116,7 @@ background = transform.scale(image.load(img_back), (win_width, win_height))
 
 
 #создаем спрайты
-ship = Player(img_hero, 5, win_height - 100, 80, 100, 10)
+ship = Player(img_hero, 5, win_height - 100, 800, 100, 10)
 
 
 monsters = sprite.Group()
